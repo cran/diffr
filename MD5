@@ -1,7 +1,7 @@
-94bcdfbdc6025a06321cf1bfc6f40831 *DESCRIPTION
+1a554a8b351d3e738c70c2038d4baedb *DESCRIPTION
 b03c0cab09bb7a79c1adbcc1ec15e547 *NAMESPACE
 a8d7bb3a8a5998b42007b1acec77fedd *R/diffr.R
-c09ef295759aa3456233126e1c355b10 *inst/htmlwidgets/diffr.js
+77f9ec072b7a5e63e42b1321172bdcce *inst/htmlwidgets/diffr.js
 5510e9741b9d94c689f332e4c235eaed *inst/htmlwidgets/diffr.yaml
 fcda4c34c3b294d01c53329c8a0eb661 *inst/htmlwidgets/lib/codediff/codediff.css
 e256496a6f10ff687809c736572b0929 *inst/htmlwidgets/lib/codediff/codediff.js
@@ -9,5 +9,5 @@ e256496a6f10ff687809c736572b0929 *inst/htmlwidgets/lib/codediff/codediff.js
 045da96294110e9d04c4e0ca47424b25 *inst/htmlwidgets/lib/codediff/googlecode.css
 d87f71a78ea32c4321e6fd1e59927464 *inst/htmlwidgets/lib/codediff/highlight.min.js
 8101d596b2b8fa35fe3a634ea342d7c3 *inst/htmlwidgets/lib/codediff/jquery.min.js
-fe20025ec9ac0f142ff7cef3bd210b0d *man/diffr.Rd
-f00cc96fd7d2e71914ba144936560580 *man/diffrOutput.Rd
+4716f2e4a8a8eff48cf4f55b68d4eb83 *man/diffr.Rd
+3492aa681c7d713d1f1f39be8d2291aa *man/diffrOutput.Rd
