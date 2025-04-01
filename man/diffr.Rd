@@ -4,8 +4,17 @@
 \alias{diffr}
 \title{Diff 2 files side by side}
 \usage{
-diffr(file1, file2, contextSize = 3, minJumpSize = 10, wordWrap = TRUE,
-  before = file1, after = file2, width = NULL, height = NULL)
+diffr(
+  file1,
+  file2,
+  contextSize = 3,
+  minJumpSize = 10,
+  wordWrap = TRUE,
+  before = file1,
+  after = file2,
+  width = NULL,
+  height = NULL
+)
 }
 \arguments{
 \item{file1}{First file to take diff (usually original file)}
@@ -27,9 +36,9 @@ To wrap at word boundaries instead, set this option.}
 
 \item{after}{Text to display on file2}
 
-\item{width}{passed to \code{\link{createWidget}}}
+\item{width}{passed to \code{\link[htmlwidgets]{createWidget}}}
 
-\item{height}{passed to \code{\link{createWidget}}}
+\item{height}{passed to \code{\link[htmlwidgets]{createWidget}}}
 }
 \description{
 Takes the diff of 2 files and shows comparisons
@@ -37,10 +46,10 @@ Takes the diff of 2 files and shows comparisons
 \examples{
 library(diffr)
 file1 = tempfile()
-writeLines("hello, world!\\n", con = file1)
+writeLines("hello, world!\n", con = file1)
 file2 = tempfile()
 writeLines(paste0(
-"hello world?\\nI don't get it\\n",
+"hello world?\nI don't get it\n",
 paste0(sample(letters, 65, replace = TRUE), collapse = "")), con = file2)
 diffr(file1, file2, before = "f1", after = "f2")
 }
